@@ -37,15 +37,16 @@ function substract() {
     let substract_num= num1 - num2
     answerEl.innerText = substract_num
 }
-// function divide() {
-//     let divide_num= num1 / num2
-//     answerEl.innerText = divide_num
-// }
+function divide() {
+    let divide_num= num1 / num2
+    answerEl.innerText = divide_num
+}
 function clear() {
     num1El.innerText = "0"
     num2El.innerText = "0"
     answerEl.innerText = "0"
 }
+
 
 
  
